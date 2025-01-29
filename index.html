@@ -4,17 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
 </head>
 <body>
     <div class="sidebar">
-        <nav>
-            <div>
+        <nav class="sidebar__navigation">
+            <div class="logo">
                 <a href="">
                     <img src="/icons/logo-spotify.png" alt="Logo Spotify">
-                </a>
-            </div>
+                    </a>
+                    </div>
+                    <div>
+                        <ul><li>
+                            <a href="">
+                                <span class="fa fa-home"></span>
+                                <span class="nome">Início</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="fa fa-search"></span>
+                                <span class="nome">Buscar</span>
+                            </a>
+                    </li></ul>
         </nav>
+        <div class="biblioteca">
+            <div class="biblioteca_conteudo">
+                <button class="biblioteca_botao">
+                    <span class="fa fa-book"></span>
+                    <span>Sua Biblioteca</span>
+                </button>
+                <span class="fa fa-plus"></span>
+            </div>
+        </div>
     </div>
 </body>
 </html>
