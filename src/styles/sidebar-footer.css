@@ -206,7 +206,7 @@ body {
     border-radius: 20px;
 }
 
-.disclaimer-premiun {
+.disclaimer-premium {
 
     position: fixed;
     bottom: 0;
@@ -218,11 +218,11 @@ body {
     justify-content: space-between;
 }
 
-.disclaimer-premiun text {
+.disclaimer-premium text {
     flex-shrink: 0;
 }
 
-.disclaimer-premiun .disclaimer-premiun__title {
+.disclaimer-premium .disclaimer-premium__title {
 
     color: white;
     text-transform: uppercase;
@@ -231,13 +231,13 @@ body {
     margin-bottom: 10px;
 }
 
-.disclaimer-premiun .disclaimer-premiun__subtitle {
+.disclaimer-premium .disclaimer-premium__subtitle {
     color: white;
     font-size: 14px;
     font-weight: 500;
 }
 
-.disclaimer-premiun button {
+.disclaimer-premium button {
     background-color: white;
     color: black;
     font-size: 16px;
